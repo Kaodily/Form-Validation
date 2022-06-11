@@ -30,7 +30,7 @@ $("form").submit(function (e) {
     }
     if (password == '') {
         $(".password_error").text('Password cannot be empty').css({"color":"red", 'visibility':'visible'});
-        $('.img3').css('display','block')
+        $('.img4').css('display','block')
     }
     else if (!password.match(reg)) {
         $(".password_error").text('Password is not strong enough').css({"color":"red", 'visibility':'visible'});
