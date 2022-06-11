@@ -1,0 +1,198 @@
+body {
+  width: 100%;
+  background-image: url(/images/bg-intro-mobile.png);
+  background-color: #ff7a7a;
+  font-family: "Poppins", sans-serif;
+}
+
+.intro {
+  color: white;
+  padding: 20px 20px;
+  text-align: center;
+}
+
+.intro h1 {
+  padding: 2px 50px;
+}
+
+.intro p {
+  padding: 2px 40px;
+  color: white;
+  font-size: 12px;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+}
+
+.container .btn {
+  width: 280px;
+  height: 70px;
+  padding: 7px 40px;
+  border-radius: 4px;
+  background-color: #6055a5;
+  border: none;
+  margin-bottom: 20px;
+  text-align: center;
+  box-shadow: 0 3px 2px #3e3c49;
+}
+
+.container .btn a {
+  color: white;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+}
+
+.container .btn span {
+  color: #b9b6d3;
+}
+
+.container .section {
+  width: 280px;
+  height: 380px;
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  padding-top: 25px;
+  box-shadow: 0 4px 3px #6e6c7a;
+  margin: 0 auto;
+}
+
+.container .section div {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.container .section input {
+  width: 240px;
+  height: 32px;
+  border-radius: 3px;
+  padding-left: 8px;
+  border: 1px solid #c8c6c6;
+}
+
+.container .section img {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 30px;
+  top: 8px;
+  display: none;
+}
+
+.container .section small {
+  font-size: 9px;
+  margin-left: 11em;
+  color: red;
+  visibility: hidden;
+}
+
+.container .section ::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+}
+
+.container .section button {
+  width: 250px;
+  border-radius: 4px;
+  height: 40px;
+  background-color: #38cc8c;
+  border: none;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  cursor: pointer;
+}
+
+.container .section button:hover {
+  background-color: #b9b6d3;
+}
+
+.container .section p {
+  font-size: 11px;
+  padding: 2px 35px;
+  color: #b9b6d3;
+}
+
+.container .section a {
+  color: #ff7a7a;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-image: url(/images/bg-intro-desktop.png);
+  }
+  body main {
+    display: flex;
+    padding: 40px 60px;
+  }
+  body main .intro {
+    text-align: left;
+    margin-top: 90px;
+    min-width: 300px;
+  }
+  body main .intro h1 {
+    font-size: 35px;
+    padding: 0 50px;
+  }
+  body main .intro p {
+    padding: 0 50px;
+    line-height: 25px;
+    font-size: 14px;
+  }
+  body .container {
+    margin-top: 30px;
+  }
+  body .container .btn {
+    width: 400px;
+    height: 40px;
+  }
+  body .container .section {
+    width: 400px;
+  }
+  body .container .section div input {
+    width: 350px;
+  }
+  body .container .section div small {
+    margin-left: 22em;
+  }
+  body .container .section button {
+    width: 360px;
+  }
+}
+
+@media (min-width: 400px) {
+  .container {
+    margin-top: 30px;
+  }
+  .container .btn {
+    width: 350px;
+    height: 40px;
+  }
+  .container .section {
+    width: 350px;
+  }
+  .container .section div input {
+    width: 300px;
+  }
+  .container .section div small {
+    margin-left: 22em;
+  }
+  .container .section button {
+    width: 310px;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=main.css.map */
